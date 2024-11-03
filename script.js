@@ -32,7 +32,7 @@ function generateQuestion() {
     const num1 = Math.floor(Math.random() * 40) + 20; // Random number between 20 and 59
     const num2 = Math.floor(Math.random() * 20) + 1;  // Random number between 1 and 20
 
-    question = `If Sarah has ${num1} apples and gives away ${num2}, how many does she have left?`;
+    question = `If Ralph has ${num1} apples and gives away ${num2}, how many does she have left?`;
     answer = num1 - num2;
   }
 
